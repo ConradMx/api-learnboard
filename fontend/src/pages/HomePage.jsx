@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import { useState } from 'react';
 import RateLimitedUI from '../components/RateLimitedUI';
 import { useEffect } from 'react';
-import axios from 'axios';
+import api from "../lib/axios";
 import toast from 'react-hot-toast';
 import NoteCard from '../components/NoteCard';
 import NotesNotFound from '../components/NotesNoFound';
