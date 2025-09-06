@@ -1,0 +1,26 @@
+{
+  "name": "api_learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix fontend && npm run build --prefix fontend ",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConradMx/api-learnboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ConradMx/api-learnboard/issues"
+  },
+  "homepage": "https://github.com/ConradMx/api-learnboard#readme",
+  "dependencies": {
+    "build": "^0.1.4",
+    "run": "^1.5.0"
+  }
+}
